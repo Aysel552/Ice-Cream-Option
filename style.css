@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    background-image: url(https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aWNlJTIwY3JlYW18ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=60);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    background-color: #171717;
+    text-align: center;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: #fff;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    margin: 0;
+    padding: 35px 0px 10px 0px;
+    color: #ec3405;
+}
+
+.center{
+    background-image: linear-gradient( 180.2deg,  hsla(91, 59%, 52%, 0.855) 6.8%, rgba(245, 222, 18, 0.836) 131% );
+    padding: 0px;
+}
+
+#myImage{
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+    box-shadow: 1px 1px 5px 1px rgba(56,56,58,0.6);
+}
+
+h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+     font-family: 'Stick No Bills', sans-serif;
+     color: rgb(64, 8, 194);
+}
+
+#one{
+    background-color: #c3e70d;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    padding: 15px 35px;
+    border-radius: 5px;
+    border: 3px solid #000000;
+}
+
+#one:hover {
+    background-color: #71d612;
+}
+
+#two{
+    background-color: #b618a9;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    padding: 15px 35px;
+    border-radius: 5px;
+    border: 3px solid #000000;
+}
+
+#two:hover {
+    background-color: #FE8F8F;
+}
+
+@media all and (max-width: 500px){
+    #myImage{
+        width: 340px;
+        height: 200px;
+    }
+}
